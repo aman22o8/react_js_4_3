@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.bg_container {
+  background-color: #ffd569;
+  height: 100vh;
+  background-size: cover;
+  /* padding: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+}
+
+.card_container {
+  background-color: #ffffff;
+  height: 500px;
+  width: 500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  border-radius: 10px;
+}
+.main_heading {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+}
+.highlighted {
+  font-size: 25px;
+  color: #ffd569;
+  font-weight: 700;
+}
+.differentiating {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fruit_card_container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.fruits {
+  height: 210px;
+  width: 190px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 5px;
+  width: 80px;
+  border-style: none;
+  height: 30px;
+  font-size: 12px;
+}
